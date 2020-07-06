@@ -1,0 +1,6 @@
+__pycache__/
+Lib/
+Scripts/
+TSE/
+pyvenv.cfg
+models/stocks.db
