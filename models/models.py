@@ -11,7 +11,6 @@ class Stocks(Base):
     low = Column(Integer)
     close = Column(Integer)
     volume = Column(Integer)
-    endv = Column(Integer)
     code = Column(Integer)
 
     def __init__(self, date=None):
@@ -22,7 +21,6 @@ class Stocks(Base):
         self.low = low
         self.close = close
         self.volume = volume
-        self.endv = endv
         self.code = code
 
 
